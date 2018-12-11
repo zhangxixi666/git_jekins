@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//conf/cfg.properties=UTF-8
+encoding//src/com/webtest/core/MailUtil.java=UTF-8
+encoding//src/com/webtest/core/WebDriverEngine.java=UTF-8
+encoding//src/com/webtest/core/WebTestListener.java=UTF-8

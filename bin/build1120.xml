@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >  
+
+<suite name="Suite1"  parallel="tests" thread-count="5">  
+<test name="test1" >  
+     
+    <classes>  
+    	<class name="StageII.oaAddBlock"></class> 
+        <class name="StageII.DayOff"></class>
+    </classes>  
+</test>  
+
+<!-- <test name="test2">  
+    <parameter name="browser" value="chrome"/>  
+    <parameter name="nodeIp" value="http://172.16.16.62:5555"/>     
+    <classes>  
+        <class name="com.webtest.test.LoginClass"></class>  
+    </classes>  
+</test>  
+
+<test name="test3">  
+    <parameter name="browser" value="chrome"/>  
+    <parameter name="nodeIp" value="http://172.16.16.62:5555"/>   
+    <classes>  
+        <class name="com.webtest.test.LoginClass"></class>  
+    </classes>  
+</test>  -->  
+</suite>
