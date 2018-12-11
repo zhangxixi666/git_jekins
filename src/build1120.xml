@@ -1,13 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >  
 
  
-<test name="test1" >  
+ 
      
     <classes>  
     	<class name="StageII.oaAddBlock"></class> 
         <class name="StageII.DayOff"></class>
     </classes>  
-</test>  
+ 
 
 <!-- <test name="test2">  
     <parameter name="browser" value="chrome"/>  
@@ -24,4 +24,4 @@
         <class name="com.webtest.test.LoginClass"></class>  
     </classes>  
 </test>  -->  
-</suite>
+
